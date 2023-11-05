@@ -4,8 +4,8 @@ import java.util.List;
 public class Cliente {
     private String nome;
     private String cpf;
-    private String dataNascimento;
-    private String endereco;
+    private String dataNascimento; // tipo date ou localDate
+    private String endereco; // endereço deveria ser do tipo Endereco (classe Endereco)
     private List<Conta> contas;
 
     public Cliente(String nome, String cpf, String dataNascimento, String endereco) {

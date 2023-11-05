@@ -1,6 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
+// faltou implementar as classes de heranças e notificação
 public class Conta {
     private String agencia;
     private String numeroConta;
